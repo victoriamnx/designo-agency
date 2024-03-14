@@ -1,9 +1,9 @@
 import "../index.css";
-import FrameIllustration from "../components/home/desktop/image-hero-phone.png";
+import FrameIllustration from "./Group 64 Copy.png";
 
 export function FirstSection() {
   return (
-    <div className="first_section flex flex-col pt-20 bg-primary-peach h-auto overflow-hidden items-center gap-6 mt-14">
+    <div className="first_section flex flex-col pt-20 bg-primary-peach h-auto items-center gap-6 mt-14">
       <div className=" flex flex-col gap-4 px-6">
         <h1 className="font-medium text-3xl text-primary-white text-center">
           Award-winning custom designs and digital branding solutions
