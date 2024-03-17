@@ -92,21 +92,21 @@ html {
 }
 
 .project1 {
-  background: url("src/components/home/mobile/image-web-design.jpg"), #00000066;
+  background: url("./src/components/home/mobile/image-web-design.jpg"), #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .project2 {
-  background: url("./src/components/home/mobile/image-app-design.jpg"), #00000066;
+  background: url("./src/components/home/mobile/image-app-design.jpg"), #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .project3 {
-  background: url("./src/components/home/mobile/image-graphic-design.jpg"), #00000066;
+  background: url("./src/components/home/mobile/image-graphic-design.jpg"), #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,5 +1,6 @@
 import DarkLogo from "./components/shared/desktop/logo-dark.png";
 import { FirstSection } from "./home-sections/first_section";
+import { Footer } from "./home-sections/footer";
 import { SecondSection } from "./home-sections/second_section";
 import { ThirdSection } from "./home-sections/third_section";
 
@@ -35,11 +36,12 @@ export default function App() {
         </ul>
       </div>
 
-      <FirstSection />
-
-      <SecondSection />
-
-      <ThirdSection />
+      <div className="home sections">
+        <FirstSection />
+        <SecondSection />
+        <ThirdSection />
+        <Footer />
+      </div>
     </div>
   );
 }

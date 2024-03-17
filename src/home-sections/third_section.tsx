@@ -4,7 +4,7 @@ import FriendlyImg from "../components/home/desktop/illustration-friendly.svg";
 
 export function ThirdSection() {
   return (
-    <div className="flex flex-col px-6 mt-24 gap-20 mb-10">
+    <div className="flex flex-col px-6 mt-24 gap-20 mb-28">
       <div className="flex flex-col items-center text-center gap-8">
         <img src={PassionateImg} alt="" />
         <h1 className="uppercase text-xl leading-6 tracking-[5px]">
