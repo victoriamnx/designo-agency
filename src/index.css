@@ -92,7 +92,7 @@ html {
 }
 
 .project1 {
-  background: url("./src/components/home/mobile/image-web-design.jpg"), #00000066;
+  background: url("src/components/home/mobile/image-web-design.jpg"), #00000066;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
