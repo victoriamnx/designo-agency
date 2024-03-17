@@ -7,7 +7,7 @@ import { ThirdSection } from "./home-sections/third_section";
 export default function App() {
   return (
     <div className="w-screen h-screen flex flex-col">
-      <div className="fixed hamburger-menu w-screen h-24 flex py-9 px-6 bg-primary-white">
+      <div className="fixed hamburger-menu w-screen h-24 flex py-9 px-6 bg-primary-white z-50">
         <div>
           <img src={DarkLogo} alt="Designo Logo" className="w-52 h-7" />
         </div>
