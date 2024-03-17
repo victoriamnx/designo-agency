@@ -2,8 +2,8 @@ import Arrow from "../components/shared/desktop/icon-right-arrow.svg";
 export function SecondSection() {
   return (
     <div className="px-6 flex flex-col gap-6 mt-36">
-      <div className="project1 flex flex-col items-center justify-center gap-3 bg-primary-black rounded-2xl">
-        <div className="flex  flex-col w-full items-center justify-center py-24 bg-[#00000090] rounded-2xl">
+      <div className="bg-[url('./src/components/home/mobile/image-web-design.jpg')] project1 flex flex-col items-center justify-center gap-3 bg-primary-black rounded-2xl">
+        <div className=" bg-[#00000090] flex  flex-col w-full items-center justify-center py-24 rounded-2xl">
           <h1 className="font-medium text-3xl leading-9 tracking-[1.4px] uppercase text-primary-white">
             Web Design
           </h1>
@@ -19,7 +19,7 @@ export function SecondSection() {
         </div>
       </div>
 
-      <div className="project2 flex flex-col items-center justify-center gap-3 bg-primary-black rounded-2xl">
+      <div className="bg-[url('./src/components/home/mobile/image-app-design.jpg')] project2 flex flex-col items-center justify-center gap-3 bg-primary-black rounded-2xl">
         <div className="flex  flex-col w-full items-center justify-center py-24 bg-[#00000090] rounded-2xl">
           <h1 className="font-medium text-3xl leading-9 tracking-[1.4px] uppercase text-primary-white">
             App Design
@@ -36,7 +36,7 @@ export function SecondSection() {
         </div>
       </div>
 
-      <div className="project2 flex flex-col items-center justify-center gap-3 bg-primary-black rounded-2xl">
+      <div className="bg-[url('src/components/home/mobile/image-graphic-design.jpg')] project3 flex flex-col items-center justify-center gap-3 bg-primary-black rounded-2xl">
         <div className="flex  flex-col w-full items-center justify-center py-24 bg-[#00000090] rounded-2xl">
           <h1 className="font-medium text-3xl leading-9 tracking-[1.4px] uppercase text-primary-white">
             Graphic Design
