@@ -1,6 +1,6 @@
 import DarkLogo from "./components/shared/desktop/logo-dark.png";
 import { FirstSection } from "./home-sections/first_section";
-import { Footer } from "./home-sections/footer";
+import { Footer } from "./home-sections/footer_section";
 import { SecondSection } from "./home-sections/second_section";
 import { ThirdSection } from "./home-sections/third_section";
 
